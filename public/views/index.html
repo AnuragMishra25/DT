@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>US CENSUS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="dvHeader" class="col-sm-6 col-xs-12 col-sm-offset-3">
+				<h1>DATAIKU US CENSUS REPORT</h1>
+			</div>
+		</div>
+		<div id="dvContent" class="row">
+			<div class="col-xs-12">
+				<div class="row">
+					<div id="dvVariable" class="col-xs-12 col-sm-3 col-sm-offset-1">
+						<label >Variable : </label>
+					</div>
+					<div class="col-sm-8 col-xs-12">
+						<select id="ddlVariable">
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<label id="lblDisplayedText"></label>
+				</div>
+				<div class="row">
+					<label id="lblNotDisplayedText"></label>
+				</div>
+				<div class="row">
+					<label id="lblClippedText"></label>
+				</div>
+				<div class="row">
+					<table id="example" class="display" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th>Value</th>
+								<th>Count</th>
+								<th>Average_age</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/constants.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

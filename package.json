@@ -1,0 +1,22 @@
+{
+  "name": "dataiku",
+  "version": "1.0.0",
+  "description": "dummy project for interview",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "nunjucks": "^3.0.1",
+    "request": "^2.81.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
